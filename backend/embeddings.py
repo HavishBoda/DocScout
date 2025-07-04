@@ -7,7 +7,7 @@ import os
 
 
 # ChromaDB client with persistence
-chroma_client = chromadb.HttpClient(host="localhost", port=8000)
+chroma_client = chromadb.Client()
 collection = chroma_client.get_or_create_collection("user_files")
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
