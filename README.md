@@ -1,4 +1,4 @@
-# DocScout
+# DocScout (In Progress)
 
 DocScout is a semantic document search tool that enables you to index and search through your personal documents (PDF, DOCX, TXT, HTML, MD) using advanced natural language processing. It leverages transformer-based embeddings and a vector database for efficient, meaningful search results.
 
